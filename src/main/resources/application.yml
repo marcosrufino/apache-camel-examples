@@ -11,11 +11,15 @@ spring:
     jpa:
         hibernate:
             ddl-auto: create-drop
-        show-sql: true
-logging.level.org.hibernate.SQL: TRACE
-logging.level.org.hibernate.type.descriptor.sql.BasicBinder: TRACE
-logging.level.org.springframework.jdbc.core.JdbcTemplate: TRACE
-logging.level.org.springframework.jdbc.core.StatementCreatorUtils: TRACE
+#        properties:
+#            hibernate:
+#                generate_statistics: true
+#        show-sql: true
+#logging.level.org.hibernate.SQL: TRACE
+#logging.level.org.hibernate.type.descriptor.sql: TRACE
+#logging.level.org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+#logging.level.org.springframework.jdbc.core.JdbcTemplate: TRACE
+#logging.level.org.springframework.jdbc.core.StatementCreatorUtils: TRACE
 
 camel:
     springboot:
